@@ -174,55 +174,91 @@ span{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+aside{
+    text-justify: auto;
+}
 
 .about-me{
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-right: 5%;
-    padding-left: 5%;
-    
+    width: 300px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 15px;
 }
 .about-me h2{
     margin-top:0;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
-    line-height: 35px;
-    position: relative;
     text-align: center;
     padding-bottom: 20px; 
-}
-.about-me h2:after{
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 2px;
-    margin-left: -40px;
-    left: 50%;
-    bottom: 0px;
-    background-color:black;
-}
-
-.about-me h1 {
-    padding-top: 25px;
-    background: linear-gradient(to right, #000000,#ffffff);
+    background:linear-gradient(to top, #ffa500,#ffffff) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-bottom: 100px;
-}
-
-.about-me .col-left, .about-me .col-right {
-    width: 50%;
-    float: left;
-}
-.about-me .col-left{
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .about-me .col-left img {
-    max-width: 60%;
-    margin: 0 auto;
-    display: block;
-    margin-top: 22px;
+    width: 200px;
+    margin-top: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid transparent;
+    padding: 0px;
+    border-color: black ;
+    border-radius: 50%;
+    height: 200px;
+
+}
+section{
+    display:block;
+    width: 70%;
+	float: right;
+	
+}
+.education h1 {
+    background: linear-gradient(to right,#ffa500,#ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top:10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    margin-right: 15%;
+}
+.elementary h1,.elementary h2, .elementary h3, .elementary h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    margin-right: 10%;
+}
+.jhs h1,.jhs h2, .jhs h3, .jhs h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    margin-right: 10%;
+   
+}
+.shs h1,.shs h2, .shs h3, .shs h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-right: 10%;
+}
+.college h1,.college h2,.college h3,.college h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    margin-right: 10%;
+}
+.elementary, .jhs, .shs, .college {
+    background: rgba(0, 0, 0, 0.4);
+    width: 800px;
+}
+.elementary h1, .jhs h1, .shs h1, .college h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 180, 161);
 }
